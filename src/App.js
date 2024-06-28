@@ -10,8 +10,8 @@ import { MovieList } from "./components/Movie-data/MovieList";
 import { MovieDetails } from "./components/Movie-data/MovieDetails";
 import { WatchedSummary } from "./components/Watched/WatchedSummary";
 import { WatchedMovieList } from "./components/Watched/WatchedMovieList";
-import { useMovies } from "./custom-hooks/useMovies";
-import { useLocalStorageState } from "./custom-hooks/useLocalStorageState";
+import { useMovies } from "./components/custom-hooks/useMovies";
+import { useLocalStorageState } from "./components/custom-hooks/useLocalStorageState";
 
 const tempMovieData = [
   {
